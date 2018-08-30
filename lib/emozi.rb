@@ -1,7 +1,7 @@
 MAGIC_NUMBER = 128_022
 $🤔 = ''
 
-def emojize(str)
+def emozify(str)
   puts str.split('').inject('') { |code, char| code += (char.ord + MAGIC_NUMBER).chr(%(UTF-8))}
 end
 

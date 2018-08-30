@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "emozi"
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.authors       = ["rnitta"]
   spec.email         = ["attinyes@gmail.com"]
 
-  spec.summary       = %q{😂Emojize your Ruby code😂}
-  spec.description   = %q{Alphabets are outdated. Now you can write Ruby with emoji😃 }
+  spec.summary       = %q{🤔Executable Emoji as Ruby🤔}
+  spec.description   = %q{😃Alphabets are outdated. Now you can write Ruby with emoji😃}
   spec.homepage      = 'https://github.com/rnitta/-'
   spec.license       = 'MIT'
 
