@@ -2,7 +2,7 @@ MAGIC_NUMBER = 128_022
 $🤔 = ''
 
 def emozify(str)
-  puts str.split('').inject('') { |code, char| code += (char.ord + MAGIC_NUMBER).chr(%(UTF-8))}
+  puts str.chars.map { |char| (char.ord + MAGIC_NUMBER).chr('UTF-8') }.join
 end
 
 def method_missing(emoji, *_)
@@ -10,5 +10,5 @@ def method_missing(emoji, *_)
 end
 
 at_exit do
-  eval$🤔.chars.to_a.reduce('') { |code, str| code += (str.ord - MAGIC_NUMBER).chr(%(UTF-8)) }
+  eval$🤔.chars.map { |char| (char.ord - MAGIC_NUMBER).chr('UTF-8') }.join
 end
