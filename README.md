@@ -10,13 +10,13 @@ $ gem install emozi
 
 or
 
-write in your `Gemfile` like below
+Add it in  your `Gemfile`
 
 ```ruby
 gem 'emozi'
 ```
 
-And then execute
+Then execute
 
 ``` bash
 $ bundle install
@@ -67,7 +67,7 @@ but you can break lines everywhere.
 ```
 require 'emozi'
 
-💆💋💊💉🐶🐸👞👻💂💂💅🐶👭💅💈💂👺🐷🐸
+💆💋💊💉🐶🐸👞👻💂💂💅🐶👭💅💈💂👺🐷🐸 # => Hello World!
 ```
 
 is compatible with
@@ -81,16 +81,13 @@ require 'emozi'
 💂💅🐶
 👭💅💈
 💂👺🐷
-🐸
+🐸 # => Hello World!
 ```
 
 
 
 ## Contribute
 
-- fork it
-- and make PR
-
-
+- fork this and make PR
 - or issue please
 
